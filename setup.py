@@ -9,8 +9,8 @@ from cleantheme import __version__ as version
 setup(
 	name='cleantheme',
 	version=version,
-	description='Clean Theme for ERPNext Frontend',
-	author='@LarryDevops',
+	description='Cleantheme for ERPNext ',
+	author='larrydevops',
 	author_email='larrydevops@gmail.com',
 	packages=find_packages(),
 	zip_safe=False,

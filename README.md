@@ -1,6 +1,6 @@
 ## Cleantheme
 
-Clean Theme for ERPNext Frontend
+Cleantheme for ERPNext 
 
 #### License
 

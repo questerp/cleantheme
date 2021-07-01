@@ -2,8 +2,8 @@ from . import __version__ as app_version
 
 app_name = "cleantheme"
 app_title = "Cleantheme"
-app_publisher = "@LarryDevops"
-app_description = "Clean Theme for ERPNext Frontend"
+app_publisher = "larrydevops"
+app_description = "Cleantheme for ERPNext "
 app_icon = "octicon octicon-file-directory"
 app_color = "grey"
 app_email = "larrydevops@gmail.com"
