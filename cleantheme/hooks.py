@@ -1,3 +1,4 @@
+from __future__ import unicode_literals
 from . import __version__ as app_version
 
 app_name = "cleantheme"
@@ -13,11 +14,11 @@ app_license = "MIT"
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/cleantheme/css/cleantheme.css"
+app_include_css = "/assets/cleantheme/css/cleantheme.css"
 # app_include_js = "/assets/cleantheme/js/cleantheme.js"
 
 # include js, css files in header of web template
-# web_include_css = "/assets/cleantheme/css/cleantheme.css"
+web_include_css = "/assets/cleantheme/css/cleantheme.css"
 # web_include_js = "/assets/cleantheme/js/cleantheme.js"
 
 # include custom scss in every website theme (without file extension ".scss")
