@@ -84,3 +84,93 @@ body {
 .footer-powered {
 	display: none !important;
 }
+
+
+/*** Login Page ***/
+
+.navbar-light {
+    border-bottom: none;
+    background: #fff;
+}
+
+body {
+    background: #ecf1f8;
+    color: #293e52;
+    font-family: inter,-apple-system,BlinkMacSystemFont,segoe ui,Roboto,Oxygen-Sans,Ubuntu,Cantarell,helvetica neue,sans-serif;
+    overflow-x: hidden;
+}
+
+.for-email-login .page-card, .for-forgot .page-card, .for-login .page-card, .for-signup .page-card {
+    max-width: 440px;
+    margin: 0 auto;
+    border-radius: 6px;
+}
+
+.for-email-login .page-card-head, .for-forgot .page-card-head, .for-login .page-card-head, .for-signup .page-card-head {
+    text-align: center;
+    font-size: var(--text-xl);
+    font-weight: 600;
+    margin: 0 auto 60px;
+}
+
+.for-email-login .page-card-head h4, .for-forgot .page-card-head h4, .for-login .page-card-head h4, .for-signup .page-card-head h4 {
+    color: #293e52;
+    font: 500 26px inter,-apple-system,BlinkMacSystemFont,segoe ui,Roboto,Oxygen-Sans,Ubuntu,Cantarell,helvetica neue,sans-serif;
+    margin-bottom: 10px;
+}
+
+.for-email-login .page-card .page-card-body .email-field input, .for-email-login .page-card .page-card-body .password-field input, .for-forgot .page-card .page-card-body .email-field input, .for-forgot .page-card .page-card-body .password-field input, .for-login .page-card .page-card-body .email-field input, .for-login .page-card .page-card-body .password-field input, .for-signup .page-card .page-card-body .email-field input, .for-signup .page-card .page-card-body .password-field input {
+    border: 1px solid #c0d0e6 !important;
+}
+
+.for-email-login .page-card .page-card-body input[type=email], .for-email-login .page-card .page-card-body input[type=password], .for-email-login .page-card .page-card-body input[type=text], .for-forgot .page-card .page-card-body input[type=email], .for-forgot .page-card .page-card-body input[type=password], .for-forgot .page-card .page-card-body input[type=text], .for-login .page-card .page-card-body input[type=email], .for-login .page-card .page-card-body input[type=password], .for-login .page-card .page-card-body input[type=text], .for-signup .page-card .page-card-body input[type=email], .for-signup .page-card .page-card-body input[type=password], .for-signup .page-card .page-card-body input[type=text] {
+    color: #02101d;
+    background-color: #fff;
+    margin-bottom: 1rem;
+}
+
+.for-email-login .page-card .page-card-body .field-icon, .for-forgot .page-card .page-card-body .field-icon, .for-login .page-card .page-card-body .field-icon, .for-signup .page-card .page-card-body .field-icon {
+    left: 9px;
+    top: 11px;
+    position: absolute;
+    z-index: 2;
+}
+
+.for-email-login .page-card .page-card-body .forgot-password-message>*, .for-forgot .page-card .page-card-body .forgot-password-message>*, .for-login .page-card .page-card-body .forgot-password-message>*, .for-signup .page-card .page-card-body .forgot-password-message>* {
+    font-size: 13px;
+    font-weight: 600;
+    color: #3b5bfd;
+}
+
+.for-email-login .sign-up-message a, .for-forgot .sign-up-message a, .for-login .sign-up-message a, .for-signup .sign-up-message a {
+    font-size: 14px;
+    font-weight: 500;
+    color: #3b5bfd;
+}
+
+.btn.btn-primary {
+    background-color: #3b5bfd!important;
+    border-radius: 3px;
+    font: 600 16px Inter,-apple-system,BlinkMacSystemFont,segoe ui,Roboto,Oxygen-Sans,Ubuntu,Cantarell,helvetica neue,sans-serif;
+    height: 60px;
+    letter-spacing: .7px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.for-email-login .sign-up-message, .for-forgot .sign-up-message, .for-login .sign-up-message, .for-signup .sign-up-message {
+    margin-top: 1.245rem;
+    color: #849aac;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+@media (min-width: 576px) {
+    .for-email-login .page-card, .for-forgot .page-card, .for-login .page-card, .for-signup .page-card {
+        padding-top: 40px;
+        padding-bottom: 45px;
+        background-color: #fff;
+        box-shadow: none;
+    }
+}
